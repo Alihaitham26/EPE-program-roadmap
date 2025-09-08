@@ -1,12 +1,22 @@
-# React + Vite
+# EPMG Program Roadmap  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## About the Project  
+This project is a React-based application designed to showcase the roadmap for the EPMG program.  
+The main purpose of this project is to learn and practice React concepts, including JSX, component structure, and state management, while building a visually appealing and functional roadmap.  
 
-Currently, two official plugins are available:
+## ✨ Features  
+- Interactive roadmap for the EPE program  
+- Modular React components for better code organization  
+- Integration of CSS for styling  
+- Semantic HTML for accessibility and structure  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠️ Built With  
+- React  
+- Vite  
 
-## Expanding the ESLint configuration
+## 🖼️ Screenshots  
+![Roadmap Screenshot](./snapshot/main.png)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 👷‍♂️ Author  
+- Name: Ali Haitham  
+- LinkedIn: [Ali Haitham](https://www.linkedin.com/in/ali-haitham-a23901232)
