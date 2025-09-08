@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    font-family: "Michroma", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background: linear-gradient(#0d1226,#1c2138) no-repeat;
+    background-size:cover;
+    height: 100vh;
+    margin: 0;
+}
+.bungee-normal {
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+header{
+    width: 100%;
+}
+header h1{
+    width: fit-content;
+    margin: 10px auto;
+    color: #6366f1;
+}
