@@ -7,8 +7,8 @@ body {
     font-style: normal;
     background: linear-gradient(#0d1226,#1c2138) no-repeat;
     background-size:cover;
-    height: 100vh;
     margin: 0;
+    color: #fff;
 }
 .bungee-normal {
   font-family: "Bungee", sans-serif;
@@ -19,7 +19,7 @@ header{
     width: 100%;
 }
 header h1{
-    width: fit-content;
-    margin: 10px auto;
+    width: 100%;
+    text-align: center;
     color: #6366f1;
 }
