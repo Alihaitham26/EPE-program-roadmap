@@ -237,13 +237,7 @@ const courseRoadmap = [
       courseName: "Probability and Statistics",
       creditHours: 2,
       prerequisites: [],
-    },
-    {
-      courseCode: "EPEG281",
-      courseName: "Industrial Training",
-      creditHours: 1,
-      prerequisites: [],
-    },
+    }
   ],
   // Semester 7
   [
@@ -287,7 +281,7 @@ const courseRoadmap = [
   // Semester 8
   [
     {
-      courseCode: "GENG22X/24X/26X",
+      courseCode: "GENG2XX",
       courseName: "(UR) Restricted Elective-2",
       creditHours: 2,
       prerequisites: [],
@@ -397,4 +391,4 @@ const courseRoadmap = [
   ],
 ];
 
-console.log(courseRoadmap);
+export default courseRoadmap

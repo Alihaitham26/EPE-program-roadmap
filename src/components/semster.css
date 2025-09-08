@@ -12,20 +12,16 @@ section.semester h2{
     justify-content: space-evenly;
     padding: 10px;
 }
+
 article.course {
-    cursor: pointer;
-    background-color: rgba(255,255,255,0.15);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-right-color: rgba(255, 255, 255, 0.1);
-    border-bottom-color: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    height: 160px;
     color: #fff;
-    width: 180px;
     padding: 10px;
     padding-top: 0px;
-    height: fit-content;
     border-radius: 5px;
     text-align: center;
     margin-left: 10px;
@@ -35,9 +31,10 @@ article.course *{
     margin: 0;
 }
 article.course h3 {
+    cursor: pointer;
     border-bottom: 2px solid #000;
     padding-bottom: 3px;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 article.course h4{
     font-size: 0.9rem;
