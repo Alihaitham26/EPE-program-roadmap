@@ -1,12 +1,12 @@
 import Course from "./Course"
 import "./semster.css"
 
-export default function Semester({semesterObj,semesterNumber}){
+export default function Semester({semesterObj,semesterNumber,clickhandler}){
     return (
         <section className="semester">
             <h2>semester {semesterNumber}</h2>
             <div className="courses">
-                {semesterObj.map((course)=><Course courseCode={course.courseCode} courseName={course.courseName} CourseCH={course.creditHours} key={course.courseCode}/>)}
+                {semesterObj.map((courseData,i)=><Course clickhandler={clickhandler} courseData={courseData} key={courseData.courseCode+i}/>)}
             </div>            
         </section>
     )
