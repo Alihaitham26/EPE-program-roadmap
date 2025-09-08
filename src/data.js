@@ -8,7 +8,7 @@ const courseRoadmap = [
       prerequisites: [],
     },
     {
-      courseCode: "MTHG001",
+      courseCode: "MTHG002",
       courseName: "Calculus 1",
       creditHours: 3,
       prerequisites: [],
@@ -73,7 +73,7 @@ const courseRoadmap = [
     {
       courseCode: "ENGG001",
       courseName: "Applied and Modern Manufacturing Engineering",
-      creditHours: 2,
+      creditHours: 3,
       prerequisites: [],
     },
     {
@@ -86,7 +86,7 @@ const courseRoadmap = [
   // Semester 3
   [
     {
-      courseCode: "EMGC102",
+      courseCode: "EMGC101",
       courseName: "Dynamics of Rigid bodies",
       creditHours: 3,
       prerequisites: [],
@@ -94,7 +94,7 @@ const courseRoadmap = [
     {
       courseCode: "MTHG104",
       courseName: "Differential Equations",
-      creditHours: 2,
+      creditHours: 3,
       prerequisites: [],
     },
     {
@@ -133,7 +133,7 @@ const courseRoadmap = [
     {
       courseCode: "MTHG102",
       courseName: "Linear Algebra and Multivariable Integrals",
-      creditHours: 2,
+      creditHours: 3,
       prerequisites: [],
     },
     {
@@ -151,7 +151,7 @@ const courseRoadmap = [
     {
       courseCode: "EPEG104",
       courseName: "Electromagnetic Fields",
-      creditHours: 3,
+      creditHours: 4,
       prerequisites: [],
     },
     {
@@ -182,15 +182,15 @@ const courseRoadmap = [
       prerequisites: [],
     },
     {
-      courseCode: "PHEG101",
+      courseCode: "MEPG173",
       courseName: "Engineering Thermodynamics",
       creditHours: 3,
       prerequisites: [],
     },
     {
-      courseCode: "MPEG202",
+      courseCode: "MDPG102",
       courseName: "Fundamentals of Mechanical Design",
-      creditHours: 3,
+      creditHours: 2,
       prerequisites: [],
     },
     {
@@ -211,11 +211,11 @@ const courseRoadmap = [
     {
       courseCode: "CMPG218",
       courseName: "Data Structure",
-      creditHours: 1,
+      creditHours: 2,
       prerequisites: [],
     },
     {
-      courseCode: "EPEG205",
+      courseCode: "EPEG203",
       courseName: "Electric and Electronic Measurements",
       creditHours: 3,
       prerequisites: [],
@@ -227,7 +227,7 @@ const courseRoadmap = [
       prerequisites: [],
     },
     {
-      courseCode: "EPEG206",
+      courseCode: "EPEG205",
       courseName: "Electrical Machines (2)",
       creditHours: 3,
       prerequisites: [],
