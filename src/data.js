@@ -97,10 +97,11 @@ const courseRoadmap = [
       creditHours: 3,
       prerequisites: ["Calculus 2(MTHG003)"],
     },
+    ,
     {
-      courseCode: "EPEG118",
-      courseName: "Electronics",
-      creditHours: 3,
+      courseCode: "INTG118",
+      courseName: "Electric Materials",
+      creditHours: 2,
       prerequisites: ["Electricity and Magnetism(PHYG002)"],
     },
     {
@@ -155,11 +156,11 @@ const courseRoadmap = [
       prerequisites: ["Electricity and Magnetism(PHYG002)"],
     },
     {
-      courseCode: "INTG118",
-      courseName: "Electric Materials",
-      creditHours: 2,
+      courseCode: "EPEG118",
+      courseName: "Electronics",
+      creditHours: 3,
       prerequisites: ["Electricity and Magnetism(PHYG002)"],
-    },
+    }
   ],
   // Semester 5
   [
